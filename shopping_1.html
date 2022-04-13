@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.css" rel="stylesheet" />
+		<link href="css/main.css" rel="stylesheet" />
+		<script src="js/iconfont.js" type="text/javascript"></script>
+		<style type="text/css">
+			.icon {
+				width: 30px;
+				height: 15px;
+				vertical-align: -0.15em;
+				fill: currentcolor;
+				overflow: hidden;
+				color: #BDBDBD;
+				display: inline-block;
+			}
+
+			#popover {
+				height: 100px;
+				width: 200px;
+			}
+
+			#top-icon-right {
+				width: 30px;
+				height: 30px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			mui.init();
+
+			mui(".shopping-body-reimai-xiangqing").on("tap", "img", function() {
+			mui.openWindow({
+				url: "shopping_2.html",
+				id: "shopping_2.html",
+				show: {
+					autoShow: true, //页面loaded事件发生后自动显示，默认为true
+					aniShow: "slide-in-right", //页面显示动画，默认为”slide-in-right“；
+					duration: 100 //页面动画持续时间，Android平台默认100毫秒，iOS平台默认200毫秒；
+				},
+				waiting: {
+					autoShow: true, //自动显示等待框，默认为true
+					title: '正在加载...' //等待对话框上显示的提示内容
+				}
+			})
+			});
+			});
+			mui(".shopping-body-shangping-1").on("tap", "img", function() {
+			mui.openWindow({
+				url: "shopping_4.html",
+				id: "shopping_4.html",
+				show: {
+					autoShow: true, //页面loaded事件发生后自动显示，默认为true
+					aniShow: "slide-in-right", //页面显示动画，默认为”slide-in-right“；
+					duration: 100 //页面动画持续时间，Android平台默认100毫秒，iOS平台默认200毫秒；
+				},
+				waiting: {
+					autoShow: true, //自动显示等待框，默认为true
+					title: '正在加载...' //等待对话框上显示的提示内容
+				}
+			})
+			});
+			});
+			mui(".shopping-body-shangping-2").on("tap", "img", function() {
+			mui.openWindow({
+				url: "shopping_4.html",
+				id: "shopping_4.html",
+				show: {
+					autoShow: true, //页面loaded事件发生后自动显示，默认为true
+					aniShow: "slide-in-right", //页面显示动画，默认为”slide-in-right“；
+					duration: 100 //页面动画持续时间，Android平台默认100毫秒，iOS平台默认200毫秒；
+				},
+				waiting: {
+					autoShow: true, //自动显示等待框，默认为true
+					title: '正在加载...' //等待对话框上显示的提示内容
+				}
+			})
+			});
+			});
+		</script>
+		<div class="mui-input-row mui-search mui-pull-left">
+			<input type="search" class="mui-input-clear" placeholder=" 猫砂">
+		</div>
+		<span class="shopping-top-icon-right">
+			<svg id="top-icon-right" class="icon" style="color: #000000;" aria-hidden="true">
+				<use xlink:href="#icon-ze-cart-o"></use>
+			</svg>
+		</span>
+		<span class="shopping-top-icon-right">
+			<svg id="top-icon-right" class="icon" style="color: #000000;" aria-hidden="true">
+				<use xlink:href="#icon-shouye2"></use>
+			</svg>
+		</span>
+		<span class="shopping-top-icon-right">
+			<div id="popover" class="mui-popover">
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell"><a href="#">订阅管理</a></li>
+					<li class="mui-table-view-cell"><a href="#">我的优惠</a></li>
+					<li class="mui-table-view-cell"><a href="#">专属客服</a></li>
+					<li class="mui-table-view-cell"><a href="#">地址管理</a></li>
+				</ul>
+			</div>
+			<a href="#popover" id="openPopover" class="mui-btn mui-btn-primary mui-btn-block">
+				<svg id="top-icon-right" class="icon" style="color: #000000;" aria-hidden="true">
+					<use xlink:href="#icon-gengduo"></use>
+				</svg>
+			</a>
+		</span>
+		<div class="mui-slider">
+			<div class="mui-slider-group mui-slider-loop">
+				<!--支持循环，需要重复图片节点-->
+				<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="./IMG/shopping/4.jpg"></a>
+				</div>
+				<div class="mui-slider-item"><a href="#"><img src="./IMG/shopping/3.jpg"></a></div>
+				<div class="mui-slider-item"><a href="#"><img src="./IMG/shopping/4.jpg"></a></div>
+				<!--支持循环，需要重复图片节点-->
+				<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="./IMG/shopping/3.jpg"></a>
+				</div>
+			</div>
+		</div>
+		<div class="shopping-top-xiaoguanggao">
+			<img src="./IMG/shopping/1.jpg" width="100%" height="100%">
+		</div>
+		<span class="haoxiaoxi">
+			<svg class="icon" style="color: #000000; height: 24px;" aria-hidden="true">
+				<use xlink:href="#icon-laba"></use>
+			</svg>
+			<a href="#" style="color: white;font-size: 16px;font-weight:bold;">订阅优惠，首单立减35%</a>
+		</span>
+		<div class="shopping-top-tubiao">
+			<div class="tubiao-icon">
+				<span style="width: 50px;height: 45px;display: inline-block;">
+					<img src="IMG/shopping/33/1.jpg" style="width: 35px;height: 35px;margin-top: 8px;">
+				</span>
+				<a href="#" style="color: #000000;font-size: 12px;">订阅专区</a>
+			</div>
+			<div class="tubiao-icon">
+				<span style="width: 50px;height: 45px;display: inline-block;">
+					<img src="IMG/shopping/33/2.png" style="width: 35px;height: 35px;margin-top: 8px;">
+				</span>
+				<a href="#" style="color: #000000;font-size: 12px;">新人有礼</a>
+			</div>
+			<div class="tubiao-icon">
+				<span style="width: 50px;height: 45px;display: inline-block;">
+					<img src="IMG/shopping/33/3.png" style="width: 35px;height: 35px;margin-top: 8px;">
+				</span>
+				<a href="#" style="color: #000000;font-size: 12px;">宠物主粮</a>
+			</div>
+			<div class="tubiao-icon">
+				<span style="width: 50px;height: 45px;display: inline-block;">
+					<img src="IMG/shopping/33/4.png" style="width: 35px;height: 35px;margin-top: 8px;">
+				</span>
+				<a href="#" style="color: #000000;font-size: 12px;">主题盲盒</a>
+			</div>
+			<div class="tubiao-icon">
+				<span style="width: 50px;height: 45px;display: inline-block;">
+					<img src="IMG/shopping/33/5.png" style="width: 35px;height: 35px;margin-top: 8px;">
+				</span>
+				<a href="#" style="color: #000000;font-size: 12px;">宠物玩具</a>
+			</div>
+			<div class="tubiao-icon">
+				<span style="width: 50px;height: 45px;display: inline-block;">
+					<img src="IMG/shopping/33/6.png" style="width: 35px;height: 35px;margin-top: 8px;">
+				</span>
+				<a href="#" style="color: #000000;font-size: 12px;">宠物零食</a>
+			</div>
+			<div class="tubiao-icon">
+				<span style="width: 50px;height: 45px;display: inline-block;">
+					<img src="IMG/shopping/33/7.png" style="width: 35px;height: 35px;margin-top: 8px;">
+				</span>
+				<a href="#" style="color: #000000;font-size: 12px;">宠物美容</a>
+			</div>
+		</div>
+		<div class="shopping-top-guanggao">
+			<img href="#" src="IMG/4.png" width="90%" height="100%">
+		</div>
+		<div class="shopping-body-reimai">
+			<img href="#" src="IMG/5.png" width="40%" height="100%">
+		</div>
+		<div class="shopping-body-reimai-xiangqing">
+			<div class="shangping">
+				<a href="shopping_2.html"><img src="IMG/7.png"></a>
+			</div>
+			<div class="shangping">
+				<a href="#"><img src="IMG/23.png"></a>
+			</div>
+			<div class="shangping">
+				<a href="#"><img src="IMG/24.png"></a>
+			</div>
+		</div>
+		<span class="shopping-bottom-top">
+			<div class="leibie">
+				<a href="#" style="color: #000000;font-size: 15px;">精选推荐</a>
+			</div>
+			<div class="leibie">
+				<a href="#" style="color: #000000;font-size: 15px;">热销爆款</a>
+			</div>
+			<div class="leibie">
+				<a href="#" style="color: #000000;font-size: 15px;">新品上市</a>
+			</div>
+			<div class="leibie">
+				<a href="#" style="color: #000000;font-size: 15px;">清仓专区</a>
+			</div>
+		</span>
+
+		<div class="shopping-body-shangping-1">
+			<a href="shopping_2.html"><img src="IMG/8.png" width="172px" height="252px"></a>
+		</div>
+		<div class="shopping-body-shangping-2">
+			<a href="shopping_4.html"><img src="IMG/9.png" width="172px" height="252px"></a>
+		</div>
+
+		<script src="js/mui.js"></script>
+		<script type="text/javascript">
+			mui.init();
+			mui('.bottomPopover').popover(status[, anchor]);
+			mui('.bottomPopover').popover('toggle'); //show hide toggle
+			//传入toggle参数，用户也无需关心当前是显示还是隐藏状态，mui会自动识别处理；
+			mui('.mui-popover').popover('toggle', document.getElementById("openPopover"));
+		</script>
+		<script type="text/javascript">
+			mui.init();
+			//获得slider插件对象
+			var gallery = mui('.mui-slider');
+			gallery.slider({
+				interval: 1500 //自动轮播周期，若为0则不自动播放，默认为0；
+			});
+		</script>
+	</body>
+
+</html>

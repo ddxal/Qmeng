@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.css" rel="stylesheet" />
+		<link href="css/main.css" rel="stylesheet" />
+		<script src="js/iconfont.js" type="text/javascript"></script>
+		<style type="text/css">
+			.icon {
+				width: 30px;
+				height: 30px;
+				vertical-align: -0.15em;
+				fill: currentcolor;
+				overflow: hidden;
+				color: #BDBDBD;
+			}
+
+			.hear-icon {
+				width: 45px;
+				height: 45px;
+				vertical-align: -0.15em;
+				fill: currentColor;
+				overflow: hidden;
+				color: #BDBDBD;
+			}
+			
+		</style>
+	</head>
+
+	<body>
+
+			<header class="mui-bar mui-bar-nav">
+				<svg class="icon" aria-hidden="true" style="width: 25%;margin-top: 4px;">
+					<use xlink:href="#icon-share"></use>
+				</svg>
+				<div class="mui-pull-left" style="text-align: center;"><span>关注</span></div>
+				<div class="mui-pull-right" style="text-align: center;"><span>推荐</span></div>
+				<svg class="icon" aria-hidden="true" style="width: 25%;margin-top: 4px;">
+					<use xlink:href="#icon-sousuo"></use>
+				</svg>
+			</header>
+			<div class="home-body" style="object-fit: cover;">
+				<img src="IMG/8888.jpg" width="100%" height="762px">
+			</div>
+			<!-- 左下角主要介绍 -->
+			<div class="home-base-function">
+				<span class="function-head">
+					<img src="IMG/touxiang.jpg" class="hear-icon" href="mine_2.html">
+				</span>
+				<span class="function-name">玛丽的碗</span>
+				<span class="function-bu"><a>关注</a></span>
+				<span class="function-news">
+					<p id="content">看到最后很感人#萌宠出道计划#萌宠界的凡尔赛行为</p>
+					<p id="openBtn">展开全部</p>
+				</span>
+			</div>
+			<div class="home-right-function">
+				<span class="home-right-function-icon">
+					<svg class="icon" aria-hidden="true">
+						<use xlink:href="#icon-aixin"></use>
+					</svg>
+					<span class="tab-label">1432</span>
+					<svg class="icon" aria-hidden="true">
+						<use xlink:href="#icon-xiaoxi"></use>
+					</svg>
+					<span class="tab-label">255</span>
+					<svg class="icon" aria-hidden="true">
+						<use xlink:href="#icon-shoucangxuanzhong"></use>
+					</svg>
+					<span class="tab-label">478</span>
+				</span>
+			</div>
+
+		
+		<script src="js/mui.js"></script>
+		<script type="text/javascript">
+			mui.init();
+			//定义函数 $ 根据元素id获得页面元素,提高效率
+			function $(id) {
+				return document.getElementById(id);
+			}
+			// 立即执行函数，判断文本长度是否过长
+			(function() {
+				var conText = $('content').innerText
+				if (conText.length >= 20) {
+					$('content').style.cssText =
+						"width: 280px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;margin-left: 5px;font-size:18px;color:#101010;"
+				}
+			})()
+			//点击事件，控制内容显示、收起
+			$('openBtn').onclick = function() {
+			 let text = $('openBtn').innerText;
+				if (text == '展开全部') {
+					$('content').style.cssText =
+						"width: 300px;table-layout:fixed;white-space: normal;word-break: break-all;white-space: pre-wrap;overflow:hiden;font-size:18px;color:#101010;";
+					$('openBtn').innerHTML = '收起'
+				}
+				if (text == '收起') {
+					$('content').style.cssText =
+						"width: 300px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;margin-left: 5px;font-size:18px;color:#101010;"
+					$('openBtn').innerHTML = '展开全部'
+				}
+			}
+
+		</script>
+	</body>
+
+</html>

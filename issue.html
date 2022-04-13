@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.css" rel="stylesheet" />
+		<link href="css/main.css" rel="stylesheet" />
+		<script src="js/iconfont.js" type="text/javascript"></script>
+		<style type="text/css">
+			.icon {
+				width: 28px;
+				height: 28px;
+				vertical-align: -0.15em;
+				fill: currentcolor;
+				overflow: hidden;
+				color: #BDBDBD;
+			}
+
+			.mui-active .mui-icon,
+			.mui-active .mui-tab-label {
+				color: #EE7FA6;
+			}
+			
+			.hear-icon {
+				width: 41px;
+				height: 41px;
+				vertical-align: -0.15em;
+				fill: currentColor;
+				overflow: hidden;
+				color: #BDBDBD;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-closeempty issue-top-left" style="font-size: 55px;"></a>
+			<svg class="icon" aria-hidden="true" style="width: 10%;height: 30px;margin-top: 20px;margin-left: 25%;">
+				<use xlink:href="#icon-yinle"></use>
+			</svg>
+			<span style="margin-top: 24px;font-size: 14px;color: #101010;">
+				选择音乐
+			</span>
+		</header>
+		<span class="issue-right" style="background-color: #00;">
+			<span class="issue-right-icon">
+				<svg class="icon" aria-hidden="true" style="width: 100%;float: left;height:50px;">
+					<use xlink:href="#icon-fanzhuanjingtou"></use>
+				</svg>
+			</span>
+			<span class="issue-icon-news">翻转</span>
+			<span class="issue-right-icon">
+				<svg class="icon" aria-hidden="true" style="width: 100%;float: left;height:50px;">
+					<use xlink:href="#icon-lvjing"></use>
+				</svg>
+			</span>
+			<span class="issue-icon-news">滤镜</span>
+			<span class="issue-right-icon">
+				<svg class="icon" aria-hidden="true" style="width: 100%;float: left;height:50px;color: #BBBBBB;">
+					<use xlink:href="#icon-shouye-meiyan"></use>
+				</svg>
+			</span>
+			<span class="issue-icon-news">美颜</span>
+		</span>
+		
+		<span class="issue-bottom" style="background-color: #00;">
+			<span class="issue-bottom-left" style="background-color: #00;">
+				<img src="IMG/3.jpg" class="hear-icon">
+				<span class="issue-icon-news">道具</span>
+			</span>
+			
+			<span class="issue-bottom-center" style="background-color: #00;">
+				<svg class="icon" aria-hidden="true" style="width: 100%;float: left;height:100px;">
+					<use xlink:href="#icon-paizhao"></use>
+				</svg>
+			</span>
+			
+			<span class="issue-bottom-right" style="background-color: #00;">
+				<img src="" class="hear-icon">
+				<span class="issue-icon-news">相框</span>
+			</span>
+		</span>
+		<nav class="mui-bar mui-bar-tab" style="background: white;">
+			<a class="mui-tab-item mui-active">
+				<span class="mui-tab-label" style="font-size: 18px;">模板</span>
+			</a>
+			<a class="mui-tab-item ">
+				<span class="mui-tab-label" style="font-size: 18px;">拍视频</span>
+			</a>
+			<a class="mui-tab-item">
+				<span class="mui-tab-label" style="font-size: 18px;">拍照</span>
+			</a>
+			<a class="mui-tab-item">
+				<span class="mui-tab-label" style="font-size: 18px;">发图文</span>
+			</a>
+		</nav>
+		<script src="js/mui.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		hui.Back=function(){
+						var parentView = plus.webview.currentWebview().parent();
+						parentView.evalJS('hui.Back();');
+					}
+
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,604 @@
+.zhuye {
+	width: 100%;
+	height: 762px;
+	display: inline-block;
+}
+
+
+.mui-pull-left,
+.mui-pull-right {
+	color: #BDBDBD;
+	line-height: 35px;
+	font-size: 25px;
+	width: 25%;
+}
+
+.home-body {
+	position: absolute;
+	margin-top: 0%;
+	width: 100%;
+	height: 830px;
+}
+
+.home-right-function {
+	position: absolute;
+	margin-left: 88%;
+	margin-top: 125%;
+	width: 10%;
+	height: 240px;
+	float: left;
+}
+
+.home-right-function-icon .icon {
+	width: 100%;
+	height: 43px;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.home-right-function-icon .tab-label {
+	width: 100%;
+	height: 30px;
+	padding: 0;
+	color: #E0E0E0;
+	text-align: center;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.home-base-function {
+	position: absolute;
+	margin-top: 134%;
+	height: 290px;
+	width: 88%;
+	float: left;
+}
+
+.home-base-function .function-head {
+	margin-top: 32%;
+	margin-left: 20px;
+	width: 53px;
+	height: 53px;
+	float: left;
+}
+
+.home-base-function .function-head img {
+	width: 53px;
+	height: 53px;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: #EE7FA6 0px 0px 15px;
+}
+
+.home-base-function .function-name {
+	width: 100px;
+	height: 18px;
+	margin-top: 36%;
+	margin-left: 16px;
+	font-size: 20px;
+	color: #101010;
+	float: left;
+}
+
+.home-base-function .function-bu {
+	width: 80px;
+	height: 25px;
+	margin-top: 36%;
+	margin-left: 2px;
+	float: left;
+}
+
+.home-base-function .function-bu a {
+	text-align: center;
+	padding: 6px 20px;
+	background: #EE7FA6;
+	border-radius: 25px;
+	font-size: 10px;
+	color: white;
+}
+
+.home-base-function .function-news {
+	width: 100%;
+	height: 99px;
+	margin-top: 5px;
+	margin-left: 5px;
+	float: left;
+}
+
+.issue-right-icon {
+	width: 100%;
+	height: 50px;
+	float: left;
+	text-align: center;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.issue-icon-news {
+	width: 100%;
+	height: 17px;
+	margin-top: 10px;
+	margin-bottom: 18px;
+	text-align: center;
+	color: #151414;
+	font-size: 16px;
+	text-align: center;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.issue-right {
+	width: 16%;
+	height: 300px;
+	margin-left: 82%;
+	margin-top: 20%;
+	box-sizing: border-box;
+	display: block;
+}
+
+.issue-bottom {
+	width: 100%;
+	height: 137px;
+	margin-top: 250px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.issue-bottom-left {
+	width: 25%;
+	height: 70%;
+	margin-top: 12%;
+	float: left;
+	text-align: center;
+}
+
+.issue-bottom-left img {
+	width: 41px;
+	height: 41px;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: #BBBBBB 0px 0px 15px;
+}
+
+.issue-bottom-center {
+	width: 50%;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+
+.issue-bottom-right {
+	width: 25%;
+	height: 70%;
+	margin-top: 12%;
+	float: left;
+	text-align: center;
+}
+
+.issue-top-left {
+	color: #BDBDBD;
+	line-height: 35px;
+	font-size: 25px;
+	text-align: center;
+	width: 18%;
+}
+
+.mine-head {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 290px;
+}
+
+.mine-head-icon {
+	width: 100%;
+	height: 290px;
+}
+
+.mine-body {
+	position: absolute;
+	width: 100%;
+	height: 283px;
+	margin-top: 250px;
+	border-radius: 5% 5% 0 0;
+}
+
+.mine-body .mine-body-head {
+	width: 100%;
+	height: 93PX;
+	position: absolute;
+}
+
+.mine-body .mine-body-head .mine-body-head-icon {
+	display: block;
+	width: 78px;
+	height: 78px;
+	border-radius: 50%;
+	margin-top: -17px;
+	margin-left: 10px;
+}
+
+.mine-body .mine-body-head .mine-body-head-news {
+	width: 150px;
+	height: 36px;
+	margin-left: 100px;
+	margin-top: -60px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.mine-body .mine-body-head .mine-body-head-bottom {
+	width: 280px;
+	height: 30px;
+	margin-left: 92px;
+	display: block;
+}
+
+.mine-body .mine-body-head .mine-body-head-bottom .guanzhu {
+	width: 180px;
+	height: 30px;
+	margin-left: 2px;
+	padding: 10px 20px;
+	border-radius: 25px;
+	background-color: #EE7FA6;
+	display: inline-block;
+	line-height: 30px;
+}
+
+.mine-body .mine-body-head .mine-body-head-bottom .xiaoxi {
+	width: 46px;
+	height: 30px;
+	margin-left: 15px;
+	text-align: center;
+	border-radius: 25px;
+	border: 2px solid #BBBBBB;
+	background-color: #EEEAEA;
+	display: inline-block;
+}
+
+.mine-body-bottom {
+	width: 100%;
+	height: 193px;
+	margin-top: 93px;
+	display: block;
+}
+
+.mine-body-bottom .mine-body-bottom-hear {
+	width: 225px;
+	height: 50%;
+	margin-left: 10px;
+	margin-top: 0px;
+	display: inline-block;
+}
+
+.mine-body-bottom .mine-body-bottom-body {
+	width: 100%;
+	height: 15%;
+	display: block;
+}
+
+.mine-body-bottom .mine-body-bottom-body .biaoqian {
+	width: 60px;
+	height: 21px;
+	margin-left: 15px;
+	text-align: center;
+	border-radius: 25px;
+	border: 1px solid #BBBBBB;
+	background-color: #EEEAEA;
+	display: inline-block;
+}
+
+.mine-body-bottom .mine-body-bottom-bottom {
+	width: 65%;
+	height: 35%;
+	display: inline-block;
+}
+
+.mine-body-bottom .mine-body-bottom-bottom .reidu {
+	width: 60px;
+	height: 375px;
+	margin-left: 2%;
+	margin-top: 3%;
+	display: inline-block;
+}
+
+.mine-body-bottom .mine-body-bottom-bottom .reidu .fenkai {
+	width: 80px;
+	height: 15px;
+	color: #000000;
+	text-align: center;
+	display: block;
+}
+
+.mine-bottom {
+	width: 100%;
+	height: 40px;
+	margin-top: 533px;
+	display: inline-block;
+}
+
+.mine-bottom .fenlei {
+	width: 120px;
+	height: 30px;
+	margin-top: 5px;
+	text-align: center;
+	display: inline-block;
+}
+
+.mine-zuoping {
+	width: 120px;
+	height: 161px;
+	margin-top: 1px;
+	margin-left: 1.5px;
+	display: inline-block;
+}
+
+.mui-search {
+	width: 60%;
+}
+
+.shopping-top-icon-right {
+	width: 10%;
+	height: 34px;
+	margin-left: 5px;
+	clear: right;
+	display: inline-block;
+}
+
+.shopping-top-xiaoguanggao {
+	width: 74%;
+	height: 30px;
+	margin-left: 13%;
+	margin-top: 6px;
+	overflow: hidden;
+	text-align: center;
+	border-radius: 20px;
+}
+
+.haoxiaoxi {
+	position: absolute;
+	width: 220px;
+	height: 25px;
+	margin-top: -29px;
+	margin-left: 80px;
+
+}
+
+.shopping-top-tubiao {
+	height: 76px;
+	width: 100%;
+	display: inline-flex;
+	overflow: auto;
+}
+
+.shopping-top-tubiao .tubiao-icon {
+	width: 50px;
+	height: 60px;
+	text-align: center;
+	margin-top: 1px;
+	margin-left: 15px;
+	display: inline-block;
+}
+
+.shopping-top-guanggao {
+	width: 100%;
+	height: 110px;
+	display: inline-block;
+	text-align: center;
+}
+
+.shopping-body-reimai {
+	width: 100%;
+	height: 26px;
+	display: inline-block;
+	text-align: center;
+	margin-top: 8px;
+}
+
+.shopping-body-reimai-xiangqing {
+	width: 100%;
+	height: 320px;
+	display: inline-block;
+	overflow: auto;
+}
+
+.shopping-body-reimai-xiangqing .shangping {
+	width: 94%;
+	height: 104px;
+	margin-left: 3%;
+	margin-top: 2px;
+	display: block;
+}
+
+.shopping-bottom-top {
+	width: 100%;
+	height: 37px;
+	margin-top: 0px;
+	display: inline-block;
+}
+
+.shopping-bottom-top .leibie {
+	width: 90px;
+	height: 37px;
+	margin-top: 0px;
+	line-height: 37px;
+	text-align: center;
+	display: inline-block;
+	overflow: auto;
+}
+
+.shopping-body-shangping-1 {
+	width: 49%;
+	height: 252px;
+	text-align: center;
+	display: inline-block;
+}
+.shopping-body-shangping-2 {
+	width: 49%;
+	height: 252px;
+	text-align: center;
+	display: inline-block;
+}
+
+.shopping2-body-top {
+	width: 100%;
+	height: 192px;
+	margin-top: 8px;
+	text-align: center;
+	display: inline-block;
+}
+
+.shopping2-body {
+	width: 100%;
+	height: 43px;
+	margin-top: 8px;
+	text-align: center;
+	display: inline-block
+}
+
+.shopping2-body2 {
+	width: 100%;
+	height: 118px;
+	margin-top: 8px;
+	text-align: center;
+	display: inline-block
+}
+
+.shopping2-body-bottom {
+	width: 100%;
+	height: 113px;
+	margin-top: 8px;
+	text-align: center;
+	display: inline-block
+}
+
+.shopping2-bottom {
+	width: 100%;
+	height: 0px;
+	margin-top: 8px;
+	text-align: center;
+	display: inline-block
+}
+
+.orde-dingyue {
+	width: 100%;
+	height: 73px;
+	margin-top: 50px;
+	text-align: center;
+	display: inline-block
+}
+
+.orde-dingyue .tianjia {
+	width: 80%;
+	height: 40px;
+	margin-top: 15px;
+	text-align: center;
+	display: inline-block
+}
+
+.orde-dingyue-shangping {
+	position: absolute;
+	width: 100%;
+	height: 120px;
+	margin-top: 8px;
+	text-align: center;
+}
+
+.shangping-pingjia {
+	width: 100%;
+	height: 23px;
+	margin-top: 8px;
+	text-align: center;
+	display: inline-block
+}
+
+.shangping-shuliang {
+	width: 75px;
+	height: 25px;
+	margin-top: 85px;
+	margin-left: 255px;
+	margin-bottom: 25px;
+	display: inline-block;
+}
+
+.dingyue-news {
+	width: 92%;
+	height: 50px;
+	margin-left: 4%;
+	display: inline-block;
+}
+
+.yuliuxiaoxi {
+	width: 100%;
+	height: 107px;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.jiagetongji {
+	width: 100%;
+	height: 102px;
+	display: inline-block;
+	margin-top: 8px;
+}
+
+.jiagetongji .fenge {
+	width: 100%;
+	height: 32px;
+	display: inline-block;
+	margin-top: 2px;
+}
+
+.jiagetongji .fenge .left {
+	display:inline-block;
+	width: 49%;
+	height: 100%;
+	overflow: hidden;
+	text-align: left;
+	 line-height:32px;
+}
+
+.jiagetongji .fenge .right {
+	display:inline-block;
+	width: 49%;
+	height: 100%;
+	text-align: right;
+	overflow: hidden;
+	 line-height:32px;
+}
+.dingdan-bottom{
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	margin-top: 44px;
+	display: inline-block;
+}
+.dingdan-bottom1 .jiage,.dingdan-bottom .jiage{
+	width: 65%;
+	height: 100%;
+	text-align: right;
+	display: inline-block;
+	overflow: hidden;
+	 line-height:40px;
+}
+.dingdan-bottom1 .icon-tijiao,.dingdan-bottom .icon-tijiao{
+	width: 30%;
+	height: 100%;
+	display: inline-block;
+	overflow: auto;
+}
+.dingdan-bottom1{
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	margin-top: 280px;
+	display: inline-block;
+}
+.shangping-goumai{
+	width: 100%;
+	height: 54px;
+	display: inline-block;
+	
+}
+
